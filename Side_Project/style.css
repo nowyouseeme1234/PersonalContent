@@ -1,0 +1,40 @@
+
+
+:root {
+--b: #000000;
+--w:#ffffff;
+--p: #d6008a;
+--test: #4ed1b0;
+}
+::selection {
+  color: var(--b);
+  background: var(--p);
+}
+body{
+  background: url("images/bg_img.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+h1{
+  text-align: center;
+  font-family: 'Ephesis', cursive;
+  font-size: 4rem;
+}
+h1 #rose{
+  color: var(--b);
+  background-color: var(--w);
+  border-radius: 50%;
+  padding:0 2%;
+}
+h1 #black{
+  color: var(--p);
+  
+}
+nav ul li{
+
+}
+nav ul li a{
+  
+}
+
